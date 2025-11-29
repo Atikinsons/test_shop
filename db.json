@@ -1,0 +1,171 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Олександр Іваненко",
+      "role": "seller"
+    },
+    {
+      "id": 2,
+      "name": "Марія Петренко",
+      "role": "seller"
+    },
+    {
+      "id": 3,
+      "name": "Ігор Коваленко",
+      "role": "seller"
+    },
+    {
+      "id": 4,
+      "name": "Наталія Олійник",
+      "role": "seller"
+    },
+    {
+      "id": 5,
+      "name": "Дмитро Шевченко",
+      "role": "seller"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Ноутбук Lenovo IdeaPad 3",
+      "price": 17500,
+      "category": "laptops",
+      "user_id": 1
+    },
+    {
+      "id": 2,
+      "name": "Смартфон Samsung Galaxy A54",
+      "price": 14500,
+      "category": "smartphones",
+      "user_id": 2
+    },
+    {
+      "id": 3,
+      "name": "Пилосос Philips PowerPro",
+      "price": 6200,
+      "category": "home_appliances",
+      "user_id": 3
+    },
+    {
+      "id": 4,
+      "name": "Телевізор LG 43UQ7500",
+      "price": 16900,
+      "category": "tv",
+      "user_id": 4
+    },
+    {
+      "id": 5,
+      "name": "Електрочайник Xiaomi Mi Kettle",
+      "price": 1200,
+      "category": "kitchen",
+      "user_id": 5
+    },
+    {
+      "id": 6,
+      "name": "Портативна колонка JBL Charge 5",
+      "price": 6200,
+      "category": "audio",
+      "user_id": 1
+    },
+    {
+      "id": 7,
+      "name": "Пральна машина Bosch Serie 4",
+      "price": 18500,
+      "category": "home_appliances",
+      "user_id": 2
+    },
+    {
+      "id": 8,
+      "name": "Планшет Apple iPad 10.2",
+      "price": 15900,
+      "category": "tablets",
+      "user_id": 3
+    },
+    {
+      "id": 9,
+      "name": "Монітор Samsung Odyssey G3",
+      "price": 7800,
+      "category": "monitors",
+      "user_id": 4
+    },
+    {
+      "id": 10,
+      "name": "Ігрова мишка Logitech G502",
+      "price": 2300,
+      "category": "accessories",
+      "user_id": 5
+    },
+    {
+      "id": 11,
+      "name": "Маршрутизатор TP-Link Archer AX10",
+      "price": 2100,
+      "category": "network",
+      "user_id": 1
+    },
+    {
+      "id": 12,
+      "name": "Дриль Makita HP1640",
+      "price": 3200,
+      "category": "tools",
+      "user_id": 2
+    },
+    {
+      "id": 13,
+      "name": "Смарт-годинник Xiaomi Redmi Watch 3",
+      "price": 2900,
+      "category": "wearables",
+      "user_id": 3
+    },
+    {
+      "id": 14,
+      "name": "Клавіатура Razer BlackWidow V3",
+      "price": 4100,
+      "category": "accessories",
+      "user_id": 4
+    },
+    {
+      "id": 15,
+      "name": "Відеокарта Gigabyte RTX 3060",
+      "price": 12900,
+      "category": "pc_components",
+      "user_id": 5
+    },
+    {
+      "id": 16,
+      "name": "Термометр електронний Omron",
+      "price": 600,
+      "category": "health",
+      "user_id": 1
+    },
+    {
+      "id": 17,
+      "name": "Мікрохвильова піч Samsung ME83X",
+      "price": 3500,
+      "category": "kitchen",
+      "user_id": 2
+    },
+    {
+      "id": 18,
+      "name": "Проектор Epson EB-S41",
+      "price": 11900,
+      "category": "office",
+      "user_id": 3
+    },
+    {
+      "id": 19,
+      "name": "Hoverboard Xiaomi Ninebot S",
+      "price": 14500,
+      "category": "transport",
+      "user_id": 4
+    },
+    {
+      "id": 20,
+      "name": "Вентилятор Ardesto FN-160",
+      "price": 900,
+      "category": "home_appliances",
+      "user_id": 5
+    }
+  ]
+}
