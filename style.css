@@ -1,0 +1,32 @@
+*{
+padding: 0px;
+margin: 0px;
+box-sizing: border-box;
+}
+
+main{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(300px, 1fr));
+    gap: 1rem;
+}
+
+div{
+    background: rgb(90, 156, 194);
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    border: black solid 5px;
+}
+
+h2{
+    color: rgb(34, 248, 6);
+}
+
+header{
+    text-align: center;
+    line-height: 4rem;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: aqua;
+    color: white;
+    height: 60px;
+}
