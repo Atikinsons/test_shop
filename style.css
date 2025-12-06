@@ -10,7 +10,7 @@ main{
     gap: 1rem;
 }
 
-div{
+.products{
     background: rgb(90, 156, 194);
     color: white;
     text-decoration: none;
@@ -29,10 +29,49 @@ h2{
 }
 
 header{
-    text-align: center;
-    line-height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-family: 'Courier New', Courier, monospace;
     background-color: aqua;
-    color: white;
-    height: 60px;
+    color: rgb(129, 79, 79);
+    gap: 1rem;
+}
+
+h3{
+    text-align: center;
+    color: cyan;
+}
+
+h4{
+    text-align: center;
+    color: cyan;
+}
+
+.cartWrapper{
+    position: relative;
+    width: fit-content;
+}
+
+.cart{
+    position: absolute;
+    width: 300px;
+    background-color: white;
+    right: 0;
+    top: 2rem;
+    border-radius: 5px;
+    border-color:black;
+}
+
+.cart:before{
+    content: " ";
+    height: 1rem;
+    z-index: 5;
+    position: absolute;
+    bottom: 1.3rem;
+    right: 0.2rem;
+    border:1rem solid transparent;
+    border-bottom-color: white;
+    border-bottom-width: 1rem; 
+    border-radius:5px ;
 }
