@@ -13,7 +13,7 @@ function getUser(){
         data = data[0]
         console.log(data)
         document.querySelector("header h1").innerHTML = "User: " + data.name
-        document.querySelector(".seller h3").innerHTML = "роль: " + data.role
+        document.querySelector(".seller h3").innerHTML = "Rol: " + data.role
         document.querySelector(".seller h4").innerHTML = "User id: " + data.id
 
     })
